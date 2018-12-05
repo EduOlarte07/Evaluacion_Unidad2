@@ -2,19 +2,48 @@ header
 {
   background-color: #5b7989;
   color: white;
+  border-radius: 10px 10px 0px 0px;
 }
 header h1
 {
-  width: 50%;
+  width: 100%;
   text-align: left;
   text-shadow: 2px 2px #02010a;
 }
 header nav
 {
-  width: 50%;
+  width: 100%;
   text-align: right;
 }
+
 body
 {
   font-family: 'Dancing Script', cursive;
+}
+#centralimg img
+{
+  width: 100%;
+}
+#secundary
+{
+  width: 80%;
+}
+.paisajes, .retratos
+{
+  display: inline-block;
+  width: 50%;
+}
+footer
+{
+  border-radius: 0px 0px 10px 10px;
+  background-color: #C6d5c5;
+}
+#pie
+{
+  width: 100%;
+}
+#pie div
+{
+  display: inline-block;
+  width: 25%;
 }
