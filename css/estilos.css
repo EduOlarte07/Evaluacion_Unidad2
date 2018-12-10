@@ -1,0 +1,126 @@
+body
+{
+  font-family: 'Dancing Script';
+}
+header
+{
+  background-color: #5b7989;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+header h1
+{
+  text-align: left;
+  text-shadow: 2px 2px #02010a;
+}
+.navg
+{
+  text-align: right;
+  color: white;
+}
+.navg a
+{
+  color: white;
+}
+a
+{
+  text-decoration: none;
+  font-size: 20px;
+  color:black;
+}
+a[href$='.html']:hover
+{
+  text-decoration: underline;
+}
+#cabecera div
+{
+  display: inline-block;
+  width: 49%;
+}
+#centralimg
+{
+width: 100%;
+background-color: #82c3a6;
+margin: 0 auto;
+text-align: center;
+}
+.pic00
+{
+  width: 80%;
+  box-shadow: 2px 2px black;
+  margin: 5vh;
+  border: 1px solid black;
+}
+#secundary
+{
+  width: 100%;
+  background-color: #d5c75f;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid black;
+}
+#secundary div
+{
+  display: inline-block;
+  width: 40%;
+  margin: 10vh;
+}
+.pic01, .pic02
+{
+  width: 100%;
+  border: 1px solid black;
+  box-shadow: 2px 2px black;
+}
+.pic01:hover
+{
+  transform: rotate(10deg);
+  box-shadow: 2px 2px #82c3a6;
+  border: 1px solid #82c3a6;
+}
+.pic02:hover
+{
+  transform: translate3d(20px, -5px, 0px);
+  box-shadow: 2px 2px #82c3a6;
+  border: 1px solid #82c3a6;
+}
+footer
+{
+  border-radius: 0px 0px 10px 10px;
+  background-color: #C6d5c5;
+  text-align: left;
+}
+
+#pie div
+{
+  display: inline-block;
+  width: 24.5%;
+}
+.galeria div img
+{
+  width: 80%;
+}
+.galeria
+{
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+div[class*="imagen"]
+{
+  flex: 1 2 30%;
+}
+.imagen1
+{
+  -webkit-filter:blur:10px;
+  filter:blur(10px);
+}
+.imagen3
+{
+  -webkit-filter:sepia:90%;
+  filter: sepia(90%);
+}
+.imagen2, .imagen4, .imagen6
+{
+  -webkit-filter:grayscale:100%;
+  filter: grayscale(100%);
+}
